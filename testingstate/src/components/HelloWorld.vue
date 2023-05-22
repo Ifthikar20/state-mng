@@ -94,6 +94,7 @@ export default {
     return {
       contactInfo: [],
       DoNotSendNotification: this.$store.state.DoNotSendNotification,
+      //wera are adding more constants  here...
       checkAlertsClicked:false,
     };
   },
@@ -107,9 +108,7 @@ export default {
     },
     
   },
-  created(){
-console.log(this.DoNotSendNotification)
-  },
+ 
   methods: {
     getInfor() {
       if (!this.openState) {
@@ -139,6 +138,7 @@ console.log(this.DoNotSendNotification)
   },
   watch:{
 
+  //new watch
   
   }
 };
