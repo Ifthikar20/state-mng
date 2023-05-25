@@ -3,3 +3,5 @@ export default{
        commit('NewDoNotSendNotification',data)
     }
 }
+
+//we are going to create the post/ delete and update
